@@ -24,10 +24,12 @@ document.addEventListener("DOMContentLoaded", () => {
     li.style.marginLeft = "-20px"
     li.style.color = "brown"
 
-    btn.style.backgroundColor = "brown"
+    btn.style.backgroundColor = "red"
     btn.style.fontWeight = "600"
-    btn.style.fontSize = "10px"
-    btn.style.height = "20px"
+    btn.style.fontSize = "15px"
+    btn.style.borderRadius = "50%"
+    btn.style.flex = "row"
+    btn.style.justifyContent = "end"
   }
 
   function deleteList(e){
